@@ -1,0 +1,30 @@
+//msj feedback//
+h4 {
+    text-align: center;
+    color: #006D77;
+    padding: 20px 0;
+    font-size: 30px;
+}
+
+//estilo feedback//
+#feedback {
+    background-color: #E29578;
+    text-align: center;
+}
+
+.boton {
+    background-color: #006D77;
+    border: #006D77;
+    margin-bottom: 20px;
+    color: #E29578;
+    font-size: 20px;
+    &:hover {
+        background-color:darken(#006D77, 10%) ;
+        color: darken(#E29578, 10%);
+    }
+}
+
+.msj-email {
+    color: #006D77;
+    font-size: 20px;
+}

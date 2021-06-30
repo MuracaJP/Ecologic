@@ -1,0 +1,38 @@
+//variables//
+$color-titulo-bg-general: #E29578;
+$bg-titulo-textos: #006D77;
+$margin-bottom: 15px;
+
+//son los títulos de los grupos de productos en las diferentes páginas//
+.titP {
+    font-size: 50px;
+    text-align: center;
+    color: $color-titulo-bg-general;
+    background-color:$bg-titulo-textos;
+    padding: 20px 0;
+    margin-bottom: $margin-bottom;
+}
+
+//nombre de los productos en sus respectivas páginas//
+.nombreProd {
+    background-color: $color-titulo-bg-general;
+    color: $bg-titulo-textos;
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 10px;
+    margin-bottom: $margin-bottom;
+}
+
+//formato productos y texto en sus respectivas páginas//
+.formato-productos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: $color-titulo-bg-general;
+    color: $bg-titulo-textos;
+    font-size: 20px;
+    line-height: 30px;
+    padding: 40px 20px;
+    margin-bottom: $margin-bottom;
+    text-align: center;
+}

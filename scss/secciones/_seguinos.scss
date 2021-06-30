@@ -1,0 +1,22 @@
+// formato seccion links//
+#links {
+    background-color: #006D77;
+    color: #E29578;
+    font-size: 50px;
+    text-align: center;
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    //seguinos inicio//
+    .seguinos {
+        padding: 40px 0;
+        font-size: 70px;
+    }
+}
+
+//seguinos en las diferentes páginas de productos//
+.seguinos2 {
+    padding: 20px 0;
+}

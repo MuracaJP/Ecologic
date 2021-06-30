@@ -1,0 +1,27 @@
+//reseteo de margenes y relleno//
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+//fuente//
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+@import "secciones/inicio";
+@import "secciones/menu";
+@import "secciones/productos";
+@import "grid/gridAcces";
+@import "grid/gridAroma";
+@import "grid/gridBalsa";
+@import "secciones/quienesSomos";
+@import "secciones/feedback";
+@import "secciones/seguinos";
+@import "secciones/paginas";
+@import "img&iconos/iconos&links";
+@import "img&iconos/imagenes";
+@import "queries";
+@import "secciones/error";
+

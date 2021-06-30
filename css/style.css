@@ -1,0 +1,414 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box; }
+
+body {
+  font-family: 'Raleway', sans-serif; }
+
+.bienvenida {
+  color: #E29578;
+  font-size: 60px;
+  padding: 30px 0; }
+
+#inicio {
+  text-align: center; }
+
+.menuContainer {
+  list-style: none;
+  background-color: #E29578;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 10px 0; }
+  .menuContainer .botonDD:hover .dropdown {
+    display: block; }
+  .menuContainer li {
+    position: relative;
+    padding: 40px 0; }
+  .menuContainer .dropdown {
+    position: absolute;
+    display: none;
+    border-style: double;
+    padding: 0;
+    list-style: none;
+    background-color: white; }
+    .menuContainer .dropdown li {
+      transition: all, 1.5s; }
+      .menuContainer .dropdown li:hover {
+        background-color: #E29578; }
+
+#productos {
+  background-color: #E29578;
+  text-align: center; }
+  #productos h2 {
+    text-align: center;
+    font-size: 40px;
+    background-color: #006D77;
+    color: #E29578;
+    padding: 30px 0; }
+
+#accesIni {
+  max-height: 800px;
+  padding: 30px 300px;
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-template-rows: 20% 40% 40%;
+  grid-template-areas: "gAcces gAcces" "img1 img2" "img3 img2 "; }
+  #accesIni .gAcces {
+    grid-area: gAcces; }
+  #accesIni .img1 {
+    grid-area: img1; }
+  #accesIni .img1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-top-left-radius: 50px; }
+  #accesIni .img2 {
+    grid-area: img2; }
+  #accesIni .img2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px; }
+  #accesIni .img3 {
+    grid-area: img3; }
+  #accesIni .img3 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-bottom-left-radius: 50px; }
+
+#aromaIni {
+  max-height: 800px;
+  padding: 30px 300px;
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-template-rows: 20% 40% 40%;
+  grid-template-areas: "gAroma gAroma" "img4 img5" "img6 img7"; }
+  #aromaIni .gAroma {
+    grid-area: gAroma; }
+  #aromaIni .img4 {
+    grid-area: img4; }
+  #aromaIni .img4 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-top-left-radius: 50px; }
+  #aromaIni .img5 {
+    grid-area: img5; }
+  #aromaIni .img5 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-top-right-radius: 50px; }
+  #aromaIni .img6 {
+    grid-area: img6; }
+  #aromaIni .img6 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-bottom-left-radius: 50px; }
+  #aromaIni .img7 {
+    grid-area: img7; }
+  #aromaIni .img7 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-bottom-right-radius: 50px; }
+
+#balsaIni {
+  max-height: 800px;
+  padding: 30px 300px;
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-template-rows: 20% 40% 40%;
+  grid-template-areas: "gBalsa gBalsa" "img8 img9" "img8 img10"; }
+  #balsaIni .gBalsa {
+    grid-area: gBalsa; }
+  #balsaIni .img8 {
+    grid-area: img8; }
+  #balsaIni .img8 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px; }
+  #balsaIni .img9 {
+    grid-area: img9; }
+  #balsaIni .img9 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-top-right-radius: 50px; }
+  #balsaIni .img10 {
+    grid-area: img10; }
+  #balsaIni .img10 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-bottom-right-radius: 50px; }
+
+#quienesSomos {
+  text-align: center;
+  background-image: url(../img/ecocirculo.png);
+  background-position-x: center;
+  background-position-y: center;
+  background-repeat: repeat-x;
+  background-size: 40%;
+  color: black;
+  font-size: 30px;
+  padding: 30px 20px;
+  line-height: 50px; }
+  #quienesSomos .encQs {
+    text-align: center;
+    font-size: 50px;
+    padding: 40px 0; }
+
+h4 {
+  text-align: center;
+  color: #006D77;
+  padding: 20px 0;
+  font-size: 30px; }
+
+#feedback {
+  background-color: #E29578;
+  text-align: center; }
+
+.boton {
+  background-color: #006D77;
+  border: #006D77;
+  margin-bottom: 20px;
+  color: #E29578;
+  font-size: 20px; }
+  .boton:hover {
+    background-color: #003e44;
+    color: #d9744e; }
+
+.msj-email {
+  color: #006D77;
+  font-size: 20px; }
+
+#links {
+  background-color: #006D77;
+  color: #E29578;
+  font-size: 50px;
+  text-align: center;
+  padding: 10px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  #links .seguinos {
+    padding: 40px 0;
+    font-size: 70px; }
+
+.seguinos2 {
+  padding: 20px 0; }
+
+.titP {
+  font-size: 50px;
+  text-align: center;
+  color: #E29578;
+  background-color: #006D77;
+  padding: 20px 0;
+  margin-bottom: 15px; }
+
+.nombreProd {
+  background-color: #E29578;
+  color: #006D77;
+  font-size: 30px;
+  text-align: center;
+  padding-bottom: 10px;
+  margin-bottom: 15px; }
+
+.formato-productos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #E29578;
+  color: #006D77;
+  font-size: 20px;
+  line-height: 30px;
+  padding: 40px 20px;
+  margin-bottom: 15px;
+  text-align: center; }
+
+.inicioVolverComprarIg {
+  font-size: 25px;
+  text-decoration: none;
+  color: #006D77; }
+
+.inicioVolverComprarIg2 {
+  font-size: 25px;
+  text-decoration: none;
+  color: #E29578;
+  padding: 20px 0; }
+
+.ig {
+  width: 4%;
+  height: 4%;
+  padding: 20px 0; }
+
+.inicioVolverComprarIg:hover {
+  color: #003e44; }
+
+.inicioVolverComprarIg2:hover {
+  color: #d9744e; }
+
+.linksMenu {
+  font-size: 32px;
+  text-decoration: none;
+  color: #006D77;
+  padding: 5px auto; }
+
+.linksMenu:hover {
+  color: #003e44; }
+
+.grupoProd {
+  font-size: 30px;
+  text-decoration: none;
+  color: #006D77;
+  text-align: center; }
+
+.grupoProd:hover {
+  color: #003e44; }
+
+.imagesBig {
+  width: 100%;
+  height: 100%; }
+
+.imagesMed {
+  width: 50%;
+  height: 50%;
+  max-height: 600px; }
+
+.imagesSm {
+  width: 3%;
+  height: 3%;
+  padding: 20px 0px; }
+
+.sellos {
+  display: block;
+  width: 35%;
+  height: 35%;
+  padding: 20px 0px;
+  transition: all 1s; }
+
+.sellos:hover {
+  transform: scale(1.5); }
+
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  #accesIni {
+    padding: 40px 100px; }
+  #aromaIni {
+    padding: 40px 100px; }
+  #balsaIni {
+    padding: 40px 100px; }
+  #quienesSomos {
+    font-size: 35px;
+    line-height: 45px;
+    padding-top: 15px;
+    background-size: 100%; }
+  .seguinos {
+    font-size: 25px /2;
+    padding: 20px 0; }
+  .imagesSm {
+    width: 9%;
+    height: 9%; }
+  .ig {
+    width: 10%;
+    height: 10%; }
+  .sellos {
+    width: 100%;
+    height: 100%; }
+  .inicioVolverComprarIg {
+    font-size: 40px; }
+  .grupoProd {
+    font-size: 30px; }
+  .linksMenu {
+    font-size: 20px; }
+  .bienvenida {
+    font-size: 40px; } }
+
+@media only screen and (max-width: 400px) {
+  .bienvenida {
+    font-size: 30px; }
+  .menuContainer li {
+    font-size: 18px;
+    padding: 25px 0; }
+  .menuContainer li:hover ul {
+    display: inline-block;
+    align-items: flex-end;
+    right: 10px; }
+  .menuContainer li ul li {
+    font-size: 14px; }
+  .linksMenu {
+    font-size: 16px; }
+  #productos h2 {
+    font-size: 20px;
+    padding: 20px 0; }
+  .titProd {
+    font-size: 20px; }
+  #accesIni {
+    padding: 20px 50px;
+    max-height: 400px; }
+  #aromaIni {
+    padding: 20px 50px;
+    max-height: 400px; }
+  #balsaIni {
+    padding: 20px 50px;
+    max-height: 400px; }
+  .grupoProd {
+    font-size: 20px; }
+  #quienesSomos {
+    font-size: 15px;
+    line-height: 20px;
+    padding-top: 15px;
+    background-size: 100%; }
+    #quienesSomos .encQs {
+      font-size: 20px;
+      padding: 10px 0; }
+  #links .seguinos {
+    font-size: 40px;
+    padding: 20px 0; }
+  .imagesSm {
+    width: 10%;
+    height: 10%; }
+  .ig {
+    width: 12%;
+    height: 12%; }
+  .sellos {
+    width: 100%;
+    height: 100%; }
+  h4 {
+    font-size: 20px; }
+  .msj-email {
+    font-size: 15px; }
+  .boton {
+    font-size: 15px; }
+  .inicioVolverComprarIg2 {
+    font-size: 20px; }
+  .menuContainer {
+    display: block; }
+    .menuContainer li {
+      border-bottom: 1px solid white; }
+      .menuContainer li:last-of-type {
+        border-bottom: none; } }
+
+.error {
+  background-image: url(../img/404.jpg);
+  background-size: cover;
+  color: #E29578;
+  min-height: 1000px;
+  text-align: center;
+  padding-top: 30px; }
+
+.logo {
+  width: 6%;
+  height: 6%;
+  padding: 30px 0; }
+
+.linkError {
+  text-decoration: none;
+  color: #E29578;
+  top: 100px; }

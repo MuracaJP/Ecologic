@@ -1,0 +1,38 @@
+//variables//
+$bg-color: #E29578;
+
+//formato y color menu//
+.menuContainer {
+    list-style: none;
+    background-color: $bg-color;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px 0;
+
+    //muestra el submenu al pasar el cursor encima//
+    .botonDD:hover .dropdown {
+        display: block;
+    }
+
+    //formato items menu//
+    li {
+        position: relative;
+        padding: 40px 0;
+    }
+
+    //oculta el submenu//
+    .dropdown {
+        position: absolute;
+        display: none;
+        border-style: double;
+        padding: 0;
+        list-style: none;
+        background-color: white;
+        li {
+            transition: all, 1.5s;
+            &:hover {
+                background-color: $bg-color;
+            }
+        }      
+    }
+}
