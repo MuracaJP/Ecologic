@@ -1,10 +1,78 @@
-.bienvenida {
-            color: #E29578;
-            font-size: 60px;
-            padding: 30px 0;
-    }
-
-//formato inicio//
 #inicio {
     text-align: center;
+    background-color: rgb(255, 255, 188);
+}
+
+.logo {
+    width: 50%;
+    height: 50%;
+    padding: 30px 0;
+}
+
+.botones {
+    display: flex;
+    justify-content: space-around;
+}
+
+.botones2 {
+    display: flex;
+    justify-content: space-evenly;
+}
+//Extend//
+
+%botones {
+    text-decoration: none;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.btn-inicio {
+    @extend %botones;
+    background-color: #bec5df;
+
+}
+
+.btn-nos {
+    @extend %botones;
+    background-color: #D1B197;
+}
+
+
+.btn-eco {
+    @extend %botones;
+    background-color: #CDA295;
+}
+
+.btn-tips {
+    @extend %botones;
+    background-color: #B38C67;
+}
+
+.btn-recetas {
+    @extend %botones;
+    background-color: #ADBEA9;
+}
+
+.btn-productos {
+    @extend %botones;
+    background-color: #635B59;
+}
+
+.btn-contacto {
+    @extend %botones;
+    background-color: #788B84;
+}
+
+.input-group {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 10px;
+    padding-right: 10px;
+    max-width: 300px;
 }
