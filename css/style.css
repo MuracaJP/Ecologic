@@ -90,7 +90,7 @@ h2 {
   font-size: 40px;
   background-color: #635B59;
   color: white;
-  padding: 30px 30px; }
+  padding: 30px 0px; }
 
 .img-prod {
   border-radius: 50%;
@@ -122,15 +122,17 @@ h2 {
   padding: 30px 0;
   color: white; }
 
-.acces-ini {
+.btn-mas {
+  text-decoration: none;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 30px;
   display: flex;
-  flex-wrap: wrap;
-  align-content: flex-start;
-  justify-content: space-evenly; }
-
-.subg-prod {
-  display: flex;
-  justify-content: center; }
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 40px; }
 
 #aromaIni {
   max-height: 800px;
@@ -205,10 +207,6 @@ h2 {
 #quienesSomos {
   text-align: center;
   background-color: #D1B197;
-  background-position-x: center;
-  background-position-y: center;
-  background-repeat: repeat-x;
-  background-size: 40%;
   color: white;
   font-size: 25px;
   padding: 30px 20px;
