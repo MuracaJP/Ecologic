@@ -22,8 +22,8 @@
 
 %botones {
     text-decoration: none;
-    width: 80px;
-    height: 80px;
+    width: 100px;
+    height: 100px;
     border-radius: 50%;
     margin-bottom: 30px;
     display: flex;
@@ -69,7 +69,7 @@
     background-color: #788B84;
 }
 
-.input-group {
+#input-search {
     display: flex;
     justify-content: flex-end;
     padding-top: 10px;

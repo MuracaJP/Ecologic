@@ -4,7 +4,7 @@
   box-sizing: border-box; }
 
 body {
-  font-family: 'Raleway', sans-serif; }
+  font-family: 'Montserrat', sans-serif; }
 
 #inicio {
   text-align: center;
@@ -25,8 +25,8 @@ body {
 
 .btn-inicio, .btn-nos, .btn-eco, .btn-tips, .btn-recetas, .btn-productos, .btn-contacto {
   text-decoration: none;
-  width: 80px;
-  height: 80px;
+  width: 100px;
+  height: 100px;
   border-radius: 50%;
   margin-bottom: 30px;
   display: flex;
@@ -55,7 +55,7 @@ body {
 .btn-contacto {
   background-color: #788B84; }
 
-.input-group {
+#input-search {
   display: flex;
   justify-content: flex-end;
   padding-top: 10px;
@@ -85,47 +85,52 @@ body {
       .menuContainer .dropdown li:hover {
         background-color: #E29578; }
 
-#productos {
-  background-color: #E29578;
-  text-align: center; }
-  #productos h2 {
-    text-align: center;
-    font-size: 40px;
-    background-color: #006D77;
-    color: #E29578;
-    padding: 30px 0; }
+h2 {
+  text-align: left;
+  font-size: 40px;
+  background-color: #635B59;
+  color: white;
+  padding: 30px 30px; }
 
-#accesIni {
-  max-height: 800px;
-  padding: 30px 300px;
-  display: grid;
-  grid-template-columns: repeat(2, auto);
-  grid-template-rows: 20% 40% 40%;
-  grid-template-areas: "gAcces gAcces" "img1 img2" "img3 img2 "; }
-  #accesIni .gAcces {
-    grid-area: gAcces; }
-  #accesIni .img1 {
-    grid-area: img1; }
-  #accesIni .img1 img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-top-left-radius: 50px; }
-  #accesIni .img2 {
-    grid-area: img2; }
-  #accesIni .img2 img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-top-right-radius: 50px;
-    border-bottom-right-radius: 50px; }
-  #accesIni .img3 {
-    grid-area: img3; }
-  #accesIni .img3 img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-bottom-left-radius: 50px; }
+.img-prod {
+  border-radius: 50%;
+  max-height: 300px;
+  max-width: 300px; }
+
+.acces-ini {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  justify-content: space-evenly;
+  background-color: #8d8381;
+  padding: 30px 0;
+  margin-bottom: 8px; }
+
+.subg-prod {
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  color: white;
+  text-decoration: none; }
+
+.aroma-ini {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  justify-content: space-evenly;
+  background-color: #635B59;
+  padding: 30px 0;
+  color: white; }
+
+.acces-ini {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  justify-content: space-evenly; }
+
+.subg-prod {
+  display: flex;
+  justify-content: center; }
 
 #aromaIni {
   max-height: 800px;
@@ -199,13 +204,13 @@ body {
 
 #quienesSomos {
   text-align: center;
-  background-image: url(../img/ecocirculo.png);
+  background-color: #D1B197;
   background-position-x: center;
   background-position-y: center;
   background-repeat: repeat-x;
   background-size: 40%;
-  color: black;
-  font-size: 30px;
+  color: white;
+  font-size: 25px;
   padding: 30px 20px;
   line-height: 50px; }
   #quienesSomos .encQs {
@@ -238,17 +243,19 @@ h4 {
   font-size: 20px; }
 
 #links {
-  background-color: #006D77;
-  color: #E29578;
+  background-color: #788B84;
+  color: white;
   font-size: 50px;
   text-align: center;
   padding: 10px 0;
   display: flex;
   flex-direction: column;
   align-items: center; }
-  #links .seguinos {
-    padding: 40px 0;
-    font-size: 70px; }
+
+.seguinos {
+  padding: 40px 0;
+  font-size: 70px;
+  text-align: left; }
 
 .seguinos2 {
   padding: 20px 0; }
@@ -284,12 +291,12 @@ h4 {
 .inicioVolverComprarIg {
   font-size: 25px;
   text-decoration: none;
-  color: #006D77; }
+  color: white; }
 
 .inicioVolverComprarIg2 {
   font-size: 25px;
   text-decoration: none;
-  color: #E29578;
+  color: white;
   padding: 20px 0; }
 
 .ig {
@@ -298,28 +305,28 @@ h4 {
   padding: 20px 0; }
 
 .inicioVolverComprarIg:hover {
-  color: #003e44; }
+  color: #e6e6e6; }
 
 .inicioVolverComprarIg2:hover {
-  color: #d9744e; }
+  color: #e6e6e6; }
 
 .linksMenu {
   font-size: 32px;
   text-decoration: none;
-  color: #006D77;
+  color: white;
   padding: 5px auto; }
 
 .linksMenu:hover {
-  color: #003e44; }
+  color: #e6e6e6; }
 
 .grupoProd {
   font-size: 30px;
   text-decoration: none;
-  color: #006D77;
+  color: white;
   text-align: center; }
 
 .grupoProd:hover {
-  color: #003e44; }
+  color: #e6e6e6; }
 
 .imagesBig {
   width: 100%;
