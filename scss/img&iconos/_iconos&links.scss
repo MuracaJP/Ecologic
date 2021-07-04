@@ -30,13 +30,13 @@ $color-links-iconos2: white;
 
 //links volver comprar en las pánias de productos//
 .inicioVolverComprarIg:hover {
-    color: darken($color-links-iconos, $amount: 10%)
+    color: darken($color-links-iconos, $amount: 20%)
 }
 
 
 //iconos al pasar el cursor encima//
 .inicioVolverComprarIg2:hover {
-    color: darken($color-links-iconos2, $amount: 10%)
+    color: darken($color-links-iconos2, $amount: 20%)
 }
 
 //formato links//
@@ -46,7 +46,7 @@ $color-links-iconos2: white;
 }
 
 .linksMenu:hover {
-    color: darken($color-links-iconos, 10%)
+    color: darken($color-links-iconos, 20%)
 }
 
 //links grupos de productos//
@@ -57,5 +57,5 @@ $color-links-iconos2: white;
 
 //links grupos de productos al pasar el cursor//
 .grupoProd:hover {
-    color: darken($color-links-iconos, 10%); 
+    color: darken($color-links-iconos, 20%); 
 }
