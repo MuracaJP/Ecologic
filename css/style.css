@@ -37,25 +37,37 @@ body {
   color: white; }
 
 .btn-inicio {
-  background-color: #bec5df; }
+  background-color: #bec5df;
+  transition: all 1s; }
 
 .btn-nos {
-  background-color: #D1B197; }
+  background-color: #D1B197;
+  transition: all 1s; }
 
 .btn-eco {
-  background-color: #CDA295; }
+  background-color: #CDA295;
+  transition: all 1s; }
 
 .btn-tips {
-  background-color: #B38C67; }
+  background-color: #B38C67;
+  transition: all 1s; }
 
 .btn-recetas {
-  background-color: #ADBEA9; }
+  background-color: #ADBEA9;
+  transition: all 1s; }
 
 .btn-productos {
-  background-color: #635B59; }
+  background-color: #635B59;
+  transition: all 1s; }
 
 .btn-contacto {
-  background-color: #788B84; }
+  background-color: #788B84;
+  transition: all 1s; }
+
+.btn-inicio:hover, .btn-nos:hover, .btn-eco:hover, .btn-tips:hover, .btn-recetas:hover, .btn-productos:hover, .btn-contacto:hover {
+  color: #3f3f3f;
+  width: 120px;
+  height: 120px; }
 
 .search-box {
   position: absolute;
@@ -106,32 +118,32 @@ h2 {
 
 .img-prod {
   border-radius: 50%;
-  max-height: 300px;
-  max-width: 300px; }
+  max-height: 250px;
+  max-width: 250px;
+  min-height: 250px;
+  min-width: 250px; }
 
 .acces-ini {
   display: flex;
   flex-wrap: wrap;
   align-content: flex-start;
-  justify-content: space-evenly;
+  justify-content: space-around;
   background-color: #8d8381;
   padding: 30px 0;
   margin-bottom: 8px; }
 
 .subg-prod {
-  display: flex;
-  justify-content: center;
   font-size: 30px;
   color: white;
   text-decoration: none; }
 
 .aroma-ini {
   display: flex;
-  flex-wrap: wrap;
   align-content: flex-start;
-  justify-content: space-evenly;
+  justify-content: space-around;
   background-color: #635B59;
   padding: 30px 0;
+  margin-bottom: 8px;
   color: white; }
 
 .btn-mas {
@@ -189,7 +201,7 @@ h4 {
   text-align: center;
   padding: 10px 0;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
   margin-bottom: 5px; }
 
@@ -201,6 +213,15 @@ h4 {
 .images-small {
   width: 3.5%;
   height: 3.5%; }
+
+.autor {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  color: black;
+  font-size: 12px; }
+  .autor:hover {
+    color: #690069; }
 
 .titP {
   font-size: 50px;
