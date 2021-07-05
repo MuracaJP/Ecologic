@@ -1,13 +1,12 @@
-// formato seccion links//
+// formato seccion contacto//
+
 #contacto {
     background-color: #788B84;
     color: white;
-    text-align: center;
     padding: 10px 0;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    margin-bottom: 5px;
 }
 
 .contacto {
@@ -27,7 +26,26 @@
     text-decoration: none;
     color: black;
     font-size: 12px;
+    font-weight: bold;
+    transition: all 1s;
     &:hover {
-        color: rgb(105, 0, 105);
+        color: white;
+        background-color: black;
     }
+}
+
+.links-contacto {
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    transition: all 1s;
+    &:hover {
+        color: black;
+    }
+}
+//icono instgram//
+.ig {
+    width: 4%;
+    height: 4%;
+    padding: 20px 0;
 }

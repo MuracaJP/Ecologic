@@ -32,6 +32,7 @@
     justify-content: center;
     align-items: center;
     color: white;
+    transition: all 1s;
 }
 
 //Botones con links//
@@ -39,44 +40,37 @@
 .btn-inicio {
     @extend %botones;
     background-color: #bec5df;
-    transition: all 1s;
 }
 
 .btn-nos {
     @extend %botones;
     background-color: #D1B197;
-    transition: all 1s;
 }
 
 
 .btn-eco {
     @extend %botones;
     background-color: #CDA295;
-    transition: all 1s;
 }
 
 .btn-tips {
     @extend %botones;
     background-color: #B38C67;
-    transition: all 1s;
 }
 
 .btn-recetas {
     @extend %botones;
     background-color: #ADBEA9;
-    transition: all 1s;
 }
 
 .btn-productos {
     @extend %botones;
     background-color: #635B59;
-    transition: all 1s;
 }
 
 .btn-contacto {
     @extend %botones;
     background-color: #788B84;
-    transition: all 1s;
 }
 
 //Botones al pasar el cursor//
@@ -84,10 +78,13 @@
     color: rgb(63, 63, 63);
     width: 120px;
     height: 120px;
+    font-size: 20px;
 }
 .search-box {
-    position: absolute;
+    display: flex;
+    justify-content: flex-end;
     padding-top: 10px;
+    padding-left: 1000px;
     padding-right: 10px;
-    max-width: 300px;
+    
 }

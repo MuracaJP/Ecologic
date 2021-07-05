@@ -34,69 +34,42 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: white; }
+  color: white;
+  transition: all 1s; }
 
 .btn-inicio {
-  background-color: #bec5df;
-  transition: all 1s; }
+  background-color: #bec5df; }
 
 .btn-nos {
-  background-color: #D1B197;
-  transition: all 1s; }
+  background-color: #D1B197; }
 
 .btn-eco {
-  background-color: #CDA295;
-  transition: all 1s; }
+  background-color: #CDA295; }
 
 .btn-tips {
-  background-color: #B38C67;
-  transition: all 1s; }
+  background-color: #B38C67; }
 
 .btn-recetas {
-  background-color: #ADBEA9;
-  transition: all 1s; }
+  background-color: #ADBEA9; }
 
 .btn-productos {
-  background-color: #635B59;
-  transition: all 1s; }
+  background-color: #635B59; }
 
 .btn-contacto {
-  background-color: #788B84;
-  transition: all 1s; }
+  background-color: #788B84; }
 
 .btn-inicio:hover, .btn-nos:hover, .btn-eco:hover, .btn-tips:hover, .btn-recetas:hover, .btn-productos:hover, .btn-contacto:hover {
   color: #3f3f3f;
   width: 120px;
-  height: 120px; }
+  height: 120px;
+  font-size: 20px; }
 
 .search-box {
-  position: absolute;
-  padding-top: 10px;
-  padding-right: 10px;
-  max-width: 300px; }
-
-.menuContainer {
-  list-style: none;
-  background-color: #E29578;
   display: flex;
-  justify-content: space-evenly;
-  margin: 10px 0; }
-  .menuContainer .botonDD:hover .dropdown {
-    display: block; }
-  .menuContainer li {
-    position: relative;
-    padding: 40px 0; }
-  .menuContainer .dropdown {
-    position: absolute;
-    display: none;
-    border-style: double;
-    padding: 0;
-    list-style: none;
-    background-color: white; }
-    .menuContainer .dropdown li {
-      transition: all, 1.5s; }
-      .menuContainer .dropdown li:hover {
-        background-color: #E29578; }
+  justify-content: flex-end;
+  padding-top: 10px;
+  padding-left: 1000px;
+  padding-right: 10px; }
 
 h2 {
   text-align: left;
@@ -112,9 +85,8 @@ h2 {
   transition: all 1s;
   position: relative;
   left: 50%; }
-
-.sellos:hover {
-  transform: scale(1.5); }
+  .sellos:hover {
+    transform: scale(1.5); }
 
 .img-prod {
   border-radius: 50%;
@@ -123,33 +95,35 @@ h2 {
   min-height: 250px;
   min-width: 250px; }
 
-.acces-ini {
+.acces-ini, .aroma-ini, .capilar-ini {
   display: flex;
   flex-wrap: wrap;
   align-content: flex-start;
   justify-content: space-around;
-  background-color: #8d8381;
   padding: 30px 0;
-  margin-bottom: 8px; }
+  margin-bottom: 5px; }
+
+.acces-ini {
+  background-color: #8d8381; }
+
+.aroma-ini {
+  background-color: #635B59; }
+
+.capilar-ini {
+  background-color: #8d8381; }
 
 .subg-prod {
   font-size: 30px;
   color: white;
-  text-decoration: none; }
-
-.aroma-ini {
-  display: flex;
-  align-content: flex-start;
-  justify-content: space-around;
-  background-color: #635B59;
-  padding: 30px 0;
-  margin-bottom: 8px;
-  color: white; }
+  text-decoration: none;
+  transition: all 1s; }
+  .subg-prod:hover {
+    color: black; }
 
 .btn-mas {
   text-decoration: none;
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
   margin-bottom: 30px;
   display: flex;
@@ -157,7 +131,11 @@ h2 {
   align-items: center;
   background-color: white;
   font-size: 40px;
-  color: black; }
+  color: black;
+  transition: all 1s; }
+  .btn-mas:hover {
+    color: white;
+    background-color: black; }
 
 #quien-soy {
   text-align: center;
@@ -171,39 +149,13 @@ h2 {
     font-size: 50px;
     padding: 40px 0; }
 
-h4 {
-  text-align: center;
-  color: #006D77;
-  padding: 20px 0;
-  font-size: 30px; }
-
-#feedback {
-  background-color: #E29578;
-  text-align: center; }
-
-.boton {
-  background-color: #006D77;
-  border: #006D77;
-  margin-bottom: 20px;
-  color: #E29578;
-  font-size: 20px; }
-  .boton:hover {
-    background-color: #003e44;
-    color: #d9744e; }
-
-.msj-email {
-  color: #006D77;
-  font-size: 20px; }
-
 #contacto {
   background-color: #788B84;
   color: white;
-  text-align: center;
   padding: 10px 0;
   display: flex;
   justify-content: space-evenly;
-  align-items: center;
-  margin-bottom: 5px; }
+  align-items: center; }
 
 .contacto {
   padding: 40px 0;
@@ -219,9 +171,25 @@ h4 {
   justify-content: center;
   text-decoration: none;
   color: black;
-  font-size: 12px; }
+  font-size: 12px;
+  font-weight: bold;
+  transition: all 1s; }
   .autor:hover {
-    color: #690069; }
+    color: white;
+    background-color: black; }
+
+.links-contacto {
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  transition: all 1s; }
+  .links-contacto:hover {
+    color: black; }
+
+.ig {
+  width: 4%;
+  height: 4%;
+  padding: 20px 0; }
 
 .titP {
   font-size: 50px;
@@ -250,46 +218,6 @@ h4 {
   padding: 40px 20px;
   margin-bottom: 15px;
   text-align: center; }
-
-.inicioVolverComprarIg {
-  font-size: 25px;
-  text-decoration: none;
-  color: white; }
-
-.inicioVolverComprarIg2 {
-  font-size: 25px;
-  text-decoration: none;
-  color: white;
-  padding: 20px 0; }
-
-.ig {
-  width: 4%;
-  height: 4%;
-  padding: 20px 0; }
-
-.inicioVolverComprarIg:hover {
-  color: #cccccc; }
-
-.inicioVolverComprarIg2:hover {
-  color: #cccccc; }
-
-.linksMenu {
-  font-size: 32px;
-  text-decoration: none;
-  color: white;
-  padding: 5px auto; }
-
-.linksMenu:hover {
-  color: #cccccc; }
-
-.grupoProd {
-  font-size: 30px;
-  text-decoration: none;
-  color: white;
-  text-align: center; }
-
-.grupoProd:hover {
-  color: #cccccc; }
 
 .error {
   background-image: url(../img/404.jpg);

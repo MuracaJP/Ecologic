@@ -15,54 +15,63 @@
      transition: all 1s;
      position: relative;
      left: 50%;
- }
 
- //info legal al pasar el cursor//
- .sellos:hover {
-     transform: scale(1.5);
+     &:hover {
+         transform: scale(1.5);
+     }
  }
 
  //Redondeo de imágenes//
  .img-prod {
-    
      border-radius: 50%;
      max-height: 250px;
      max-width: 250px;
      min-height: 250px;
      min-width: 250px;
-
  }
 
- .acces-ini {
+ //formato sub-grupo de productos + extend//
+ %formato-subg {
      display: flex;
      flex-wrap: wrap;
      align-content: flex-start;
      justify-content: space-around;
-     background-color: #8d8381;
      padding: 30px 0;
-     margin-bottom: 8px;
+     margin-bottom: 5px;
  }
 
+ .acces-ini {
+     @extend %formato-subg;
+     background-color: #8d8381;
+ }
+
+ .aroma-ini {
+     @extend %formato-subg;
+     background-color: #635B59;
+ }
+
+ .capilar-ini {
+     @extend %formato-subg;
+     background-color: #8d8381;
+ }
+
+ //títulos sub-grupos//
  .subg-prod {
      font-size: 30px;
      color: white;
      text-decoration: none;
+     transition: all 1s;
+
+     &:hover {
+         color: black;
+     }
  }
 
- .aroma-ini {
-     display: flex;
-     align-content: flex-start;
-     justify-content: space-around;
-     background-color: #635B59;
-     padding: 30px 0;
-     margin-bottom: 8px;
-     color: white;
- }
-
+ //botón signo mas//
  .btn-mas {
      text-decoration: none;
-     width: 50px;
-     height: 50px;
+     width: 40px;
+     height: 40px;
      border-radius: 50%;
      margin-bottom: 30px;
      display: flex;
@@ -71,4 +80,10 @@
      background-color: white;
      font-size: 40px;
      color: black;
+     transition: all 1s;
+
+     &:hover {
+         color: white;
+         background-color: black;
+     }
  }
