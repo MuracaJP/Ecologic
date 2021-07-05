@@ -28,16 +28,17 @@
      max-width: 250px;
      min-height: 250px;
      min-width: 250px;
+     object-fit: cover;
  }
 
- //formato sub-grupo de productos + extend//
+ //formato sub-grupo de productos con extend//
  %formato-subg {
      display: flex;
      flex-wrap: wrap;
      align-content: flex-start;
-     justify-content: space-around;
-     padding: 30px 0;
+     padding: 30px 10px;
      margin-bottom: 5px;
+     justify-content: space-around;
  }
 
  .acces-ini {
@@ -55,6 +56,34 @@
      background-color: #8d8381;
  }
 
+ .piel-ini {
+     @extend %formato-subg;
+     background-color: #635B59;
+ }
+
+ .jabones-ini {
+    @extend %formato-subg;
+    background-color: #8d8381;
+}
+
+.hogar-ini {
+    @extend %formato-subg;
+    background-color: #635B59;
+}
+.peines-ini {
+    @extend %formato-subg;
+    background-color: #8d8381;
+}
+
+.perfumes-ini {
+    @extend %formato-subg;
+    background-color: #635B59;
+}
+
+.bucal-ini {
+    @extend %formato-subg;
+    background-color: #8d8381;
+}
  //títulos sub-grupos//
  .subg-prod {
      font-size: 30px;

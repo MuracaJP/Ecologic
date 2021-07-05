@@ -1,38 +1,39 @@
-//variables//
-$color-titulo-bg-general: #E29578;
-$bg-titulo-textos: #006D77;
-$margin-bottom: 15px;
+//Títulos grupos de productos//
 
-//son los títulos de los grupos de productos en las diferentes páginas//
-.titP {
+.titulo-prod {
     font-size: 50px;
     text-align: center;
-    color: $color-titulo-bg-general;
-    background-color:$bg-titulo-textos;
+    color: white;
+    background-color: #635B59;
     padding: 20px 0;
-    margin-bottom: $margin-bottom;
+    margin-bottom: 5px;
 }
 
-//nombre de los productos en sus respectivas páginas//
-.nombreProd {
-    background-color: $color-titulo-bg-general;
-    color: $bg-titulo-textos;
-    font-size: 30px;
-    text-align: center;
-    padding-bottom: 10px;
-    margin-bottom: $margin-bottom;
-}
+//Galería de imágenes//
 
-//formato productos y texto en sus respectivas páginas//
-.formato-productos {
+.galeria{
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
     align-items: center;
-    background-color: $color-titulo-bg-general;
-    color: $bg-titulo-textos;
-    font-size: 20px;
-    line-height: 30px;
-    padding: 40px 20px;
-    margin-bottom: $margin-bottom;
-    text-align: center;
+    align-content: center;
+}
+
+//Formato imágenes en galería//
+
+.img-pag {
+    max-width: 200px;
+    max-height: 200px;
+    min-width: 200px;
+    min-height: 200px;
+    object-fit: cover;
+    padding: 15px 10px;
+    filter: brightness(70%);
+    transition: all 1s;
+    
+    
+    &:hover {
+        filter: brightness(100%);
+        transform: scale(130%);
+    }
 }

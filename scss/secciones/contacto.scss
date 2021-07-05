@@ -20,6 +20,24 @@
     height: 3.5%;
 }
 
+.links-contacto {
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    transition: all 1s;
+    &:hover {
+        color: black;
+    }
+}
+
+//icono instgram//
+
+.ig {
+    width: 4%;
+    height: 4%;
+    padding: 20px 0;
+}
+
 .autor {
     display: flex;
     justify-content: center;
@@ -34,18 +52,3 @@
     }
 }
 
-.links-contacto {
-    text-decoration: none;
-    font-size: 25px;
-    color: white;
-    transition: all 1s;
-    &:hover {
-        color: black;
-    }
-}
-//icono instgram//
-.ig {
-    width: 4%;
-    height: 4%;
-    padding: 20px 0;
-}

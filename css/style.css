@@ -11,6 +11,13 @@ body {
   background-color: #ffffbc;
   margin-bottom: 5px; }
 
+.search-box {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 10px;
+  padding-left: 1000px;
+  padding-right: 10px; }
+
 .logo {
   width: 50%;
   height: 50%;
@@ -64,13 +71,6 @@ body {
   height: 120px;
   font-size: 20px; }
 
-.search-box {
-  display: flex;
-  justify-content: flex-end;
-  padding-top: 10px;
-  padding-left: 1000px;
-  padding-right: 10px; }
-
 h2 {
   text-align: left;
   font-size: 40px;
@@ -93,15 +93,16 @@ h2 {
   max-height: 250px;
   max-width: 250px;
   min-height: 250px;
-  min-width: 250px; }
+  min-width: 250px;
+  object-fit: cover; }
 
-.acces-ini, .aroma-ini, .capilar-ini {
+.acces-ini, .aroma-ini, .capilar-ini, .piel-ini, .jabones-ini, .hogar-ini, .peines-ini, .perfumes-ini, .bucal-ini {
   display: flex;
   flex-wrap: wrap;
   align-content: flex-start;
-  justify-content: space-around;
-  padding: 30px 0;
-  margin-bottom: 5px; }
+  padding: 30px 10px;
+  margin-bottom: 5px;
+  justify-content: space-around; }
 
 .acces-ini {
   background-color: #8d8381; }
@@ -110,6 +111,24 @@ h2 {
   background-color: #635B59; }
 
 .capilar-ini {
+  background-color: #8d8381; }
+
+.piel-ini {
+  background-color: #635B59; }
+
+.jabones-ini {
+  background-color: #8d8381; }
+
+.hogar-ini {
+  background-color: #635B59; }
+
+.peines-ini {
+  background-color: #8d8381; }
+
+.perfumes-ini {
+  background-color: #635B59; }
+
+.bucal-ini {
   background-color: #8d8381; }
 
 .subg-prod {
@@ -166,18 +185,6 @@ h2 {
   width: 3.5%;
   height: 3.5%; }
 
-.autor {
-  display: flex;
-  justify-content: center;
-  text-decoration: none;
-  color: black;
-  font-size: 12px;
-  font-weight: bold;
-  transition: all 1s; }
-  .autor:hover {
-    color: white;
-    background-color: black; }
-
 .links-contacto {
   text-decoration: none;
   font-size: 25px;
@@ -191,33 +198,45 @@ h2 {
   height: 4%;
   padding: 20px 0; }
 
-.titP {
+.autor {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  color: black;
+  font-size: 12px;
+  font-weight: bold;
+  transition: all 1s; }
+  .autor:hover {
+    color: white;
+    background-color: black; }
+
+.titulo-prod {
   font-size: 50px;
   text-align: center;
-  color: #E29578;
-  background-color: #006D77;
+  color: white;
+  background-color: #635B59;
   padding: 20px 0;
-  margin-bottom: 15px; }
+  margin-bottom: 5px; }
 
-.nombreProd {
-  background-color: #E29578;
-  color: #006D77;
-  font-size: 30px;
-  text-align: center;
-  padding-bottom: 10px;
-  margin-bottom: 15px; }
-
-.formato-productos {
+.galeria {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
   align-items: center;
-  background-color: #E29578;
-  color: #006D77;
-  font-size: 20px;
-  line-height: 30px;
-  padding: 40px 20px;
-  margin-bottom: 15px;
-  text-align: center; }
+  align-content: center; }
+
+.img-pag {
+  max-width: 200px;
+  max-height: 200px;
+  min-width: 200px;
+  min-height: 200px;
+  object-fit: cover;
+  padding: 15px 10px;
+  filter: brightness(70%);
+  transition: all 1s; }
+  .img-pag:hover {
+    filter: brightness(100%);
+    transform: scale(130%); }
 
 .error {
   background-image: url(../img/404.jpg);
