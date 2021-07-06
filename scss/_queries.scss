@@ -1,9 +1,216 @@
 //responsive tablet//
-@media only screen and (min-width: 401px) and (max-width: 960px) {
-  
+@media only screen and (min-width: 401px) and (max-width: 900px) {
+
+    .sellos {
+        width: 25%;
+        height: 25%;
+
+        &:hover {
+            transform: scale(1.5);
+        }
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    //Redondeo de imágenes//
+    .img-prod {
+        max-height: 180px;
+        max-width: 180px;
+        min-height: 180px;
+        min-width: 180px;
+    }
+
+    .encQs {
+        font-size: 25px;
+    }
+    #contacto {
+        display: flex;
+        flex-direction: column;
+        line-height: 60px;
+    }
+
+    .img-pag {
+        max-width: 150px;
+        max-height: 150px;
+        min-width: 150px;
+        min-height: 150px;
+        padding: 10px 8px;
+    }
+
+    .titulo-prod {
+        font-size: 35px;
+        padding: 10px 0;
+    }
+}
+
+@media only screen and (min-width: 401px) and (max-width: 600px) {
+
+    .sellos {
+        width: 35%;
+        height: 35%;
+        left: 20%;
+
+        &:hover {
+            transform: scale(1.5);
+        }
+    }
+
+    h2 {
+        font-size: 25px;
+    }
+
+    .search-box {
+        max-width: 250px;
+    }
+
+    //Disposición botones//
+    .botones {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .botones2 {
+        display: flex;
+        justify-content: space-evenly;
+        padding-bottom: 40px;
+    }
+
+    //Botones con links//
+
+    .btn-inicio,
+    .btn-nos,
+    .btn-eco,
+    .btn-tips,
+    .btn-recetas,
+    .btn-productos,
+    .btn-contacto {
+        width: 80px;
+        height: 80px;
+        font-size: 15px;
+    }
+
+    //Redondeo de imágenes//
+    .img-prod {
+        max-height: 120px;
+        max-width: 120px;
+        min-height: 120px;
+        min-width: 120px;
+    }
+
+    //títulos sub-grupos//
+    .tit-subg {
+        font-size: 20px;
+        padding: 0;
+    }
+
+    #quien-soy {
+        font-size: 15px;
+        line-height: 15px;
+    }
+
+    .encQs {
+        font-size: 20px;
+    }
+    #contacto {
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .contacto {
+        padding: 0;
+        font-size: 20px;
+    }
+    .links-contacto {
+        font-size: 15px;
+    }
 }
 
 //responsive mobile //
 @media only screen and (max-width: 400px) {
-  
+    .sellos {
+        width: 30%;
+        height: 30%;
+        left: 10%;
+
+        &:hover {
+            transform: scale(1.8);
+        }
+    }
+
+    h2 {
+        font-size: 20px;
+        padding: 20px 10px;
+    }
+
+    .search-box {
+        max-width: 150px;
+    }
+
+    .btn-inicio,
+    .btn-nos,
+    .btn-eco,
+    .btn-tips,
+    .btn-recetas,
+    .btn-productos,
+    .btn-contacto {
+        width: 60px;
+        height: 60px;
+        font-size: 10px;
+    }
+
+    //Redondeo de imágenes//
+    .img-prod {
+        max-height: 70px;
+        max-width: 70px;
+        min-height: 70px;
+        min-width: 70px;
+    }
+
+    //títulos sub-grupos//
+    .tit-subg {
+        font-size: 12px;
+        padding: 0;
+    }
+
+    #quien-soy {
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    .encQs {
+        font-size: 25px;
+    }
+
+    #contacto {
+        display: flex;
+        flex-direction: column;
+    }
+    .contacto {
+        padding: 0;
+        font-size: 15px;
+        text-align: left;
+    }
+
+    .links-contacto {
+        font-size: 10px;
+    }
+
+    .autor {
+        font-size: 8px;
+    }
+
+    .img-pag {
+        max-width: 80px;
+        max-height: 80px;
+        min-width: 80px;
+        min-height: 80px;
+        padding: 8px 5px;
+    }
+
+    .titulo-prod {
+        font-size: 25px;
+        padding: 8px 0;
+    }
 }

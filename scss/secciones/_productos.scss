@@ -14,7 +14,7 @@
      height: 25%;
      transition: all 1s;
      position: relative;
-     left: 50%;
+     left: 40%;
 
      &:hover {
          transform: scale(1.5);
@@ -85,17 +85,15 @@
     background-color: #8d8381;
 }
  //títulos sub-grupos//
- .subg-prod {
-     font-size: 30px;
+ .tit-subg {
+     display: flex;
+     justify-content: space-evenly;
+     background-color: black;
      color: white;
      text-decoration: none;
-     transition: all 1s;
-
-     &:hover {
-         color: black;
-     }
+     font-size: 30px;
  }
-
+ 
  //botón signo mas//
  .btn-mas {
      text-decoration: none;

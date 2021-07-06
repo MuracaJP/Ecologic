@@ -15,8 +15,8 @@ body {
   display: flex;
   justify-content: flex-end;
   padding-top: 10px;
-  padding-left: 1000px;
-  padding-right: 10px; }
+  max-width: 300px;
+  margin: auto; }
 
 .logo {
   width: 50%;
@@ -84,7 +84,7 @@ h2 {
   height: 25%;
   transition: all 1s;
   position: relative;
-  left: 50%; }
+  left: 40%; }
   .sellos:hover {
     transform: scale(1.5); }
 
@@ -131,13 +131,13 @@ h2 {
 .bucal-ini {
   background-color: #8d8381; }
 
-.subg-prod {
-  font-size: 30px;
+.tit-subg {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: black;
   color: white;
   text-decoration: none;
-  transition: all 1s; }
-  .subg-prod:hover {
-    color: black; }
+  font-size: 30px; }
 
 .btn-mas {
   text-decoration: none;
@@ -173,6 +173,7 @@ h2 {
   color: white;
   padding: 10px 0;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: center; }
 
@@ -250,3 +251,138 @@ h2 {
   text-decoration: none;
   color: #E29578;
   top: 100px; }
+
+@media only screen and (min-width: 401px) and (max-width: 900px) {
+  .sellos {
+    width: 25%;
+    height: 25%; }
+    .sellos:hover {
+      transform: scale(1.5); }
+  h2 {
+    font-size: 30px; }
+  .img-prod {
+    max-height: 180px;
+    max-width: 180px;
+    min-height: 180px;
+    min-width: 180px; }
+  .encQs {
+    font-size: 25px; }
+  #contacto {
+    display: flex;
+    flex-direction: column;
+    line-height: 60px; }
+  .img-pag {
+    max-width: 150px;
+    max-height: 150px;
+    min-width: 150px;
+    min-height: 150px;
+    padding: 10px 8px; }
+  .titulo-prod {
+    font-size: 35px;
+    padding: 10px 0; } }
+
+@media only screen and (min-width: 401px) and (max-width: 600px) {
+  .sellos {
+    width: 35%;
+    height: 35%;
+    left: 20%; }
+    .sellos:hover {
+      transform: scale(1.5); }
+  h2 {
+    font-size: 25px; }
+  .search-box {
+    max-width: 250px; }
+  .botones {
+    display: flex;
+    justify-content: space-around; }
+  .botones2 {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 40px; }
+  .btn-inicio,
+  .btn-nos,
+  .btn-eco,
+  .btn-tips,
+  .btn-recetas,
+  .btn-productos,
+  .btn-contacto {
+    width: 80px;
+    height: 80px;
+    font-size: 15px; }
+  .img-prod {
+    max-height: 120px;
+    max-width: 120px;
+    min-height: 120px;
+    min-width: 120px; }
+  .tit-subg {
+    font-size: 20px;
+    padding: 0; }
+  #quien-soy {
+    font-size: 15px;
+    line-height: 15px; }
+  .encQs {
+    font-size: 20px; }
+  #contacto {
+    display: flex;
+    flex-direction: column; }
+  .contacto {
+    padding: 0;
+    font-size: 20px; }
+  .links-contacto {
+    font-size: 15px; } }
+
+@media only screen and (max-width: 400px) {
+  .sellos {
+    width: 30%;
+    height: 30%;
+    left: 10%; }
+    .sellos:hover {
+      transform: scale(1.8); }
+  h2 {
+    font-size: 20px;
+    padding: 20px 10px; }
+  .search-box {
+    max-width: 150px; }
+  .btn-inicio,
+  .btn-nos,
+  .btn-eco,
+  .btn-tips,
+  .btn-recetas,
+  .btn-productos,
+  .btn-contacto {
+    width: 60px;
+    height: 60px;
+    font-size: 10px; }
+  .img-prod {
+    max-height: 70px;
+    max-width: 70px;
+    min-height: 70px;
+    min-width: 70px; }
+  .tit-subg {
+    font-size: 12px;
+    padding: 0; }
+  #quien-soy {
+    font-size: 12px;
+    line-height: 15px; }
+  .encQs {
+    font-size: 25px; }
+  #contacto {
+    display: flex;
+    flex-direction: column; }
+  .contacto {
+    padding: 0;
+    font-size: 15px;
+    text-align: left; }
+  .links-contacto {
+    font-size: 10px; }
+  .autor {
+    font-size: 8px; }
+  .img-pag {
+    max-width: 80px;
+    max-height: 80px;
+    min-width: 80px;
+    min-height: 80px;
+    padding: 8px 5px; }
+  .titulo-prod {
+    font-size: 25px;
+    padding: 8px 0; } }
