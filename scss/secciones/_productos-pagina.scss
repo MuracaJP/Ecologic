@@ -30,8 +30,21 @@
     padding: 15px 10px;
     filter: brightness(70%);
     transition: all 1s;
-    
-    
+    &:hover {
+        filter: brightness(100%);
+        transform: scale(130%);
+    }
+}
+
+.img-pag2 {
+    max-width: 200px;
+    max-height: 200px;
+    min-width: 200px;
+    min-height: 200px;
+    object-fit: none;
+    padding: 15px 10px;
+    filter: brightness(70%);
+    transition: all 1s;
     &:hover {
         filter: brightness(100%);
         transform: scale(130%);

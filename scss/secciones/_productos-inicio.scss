@@ -98,23 +98,3 @@
      }
  }
  
- //botón signo mas//
- .btn-mas {
-     text-decoration: none;
-     width: 40px;
-     height: 40px;
-     border-radius: 50%;
-     margin-bottom: 30px;
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     background-color: white;
-     font-size: 40px;
-     color: black;
-     transition: all 1s;
-
-     &:hover {
-         color: white;
-         background-color: black;
-     }
- }

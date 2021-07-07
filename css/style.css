@@ -142,22 +142,46 @@ h2 {
   .tit-subg:hover {
     color: #b4b4b4; }
 
-.btn-mas {
-  text-decoration: none;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  margin-bottom: 30px;
+.titulo-prod {
+  font-size: 50px;
+  text-align: center;
+  color: white;
+  background-color: #635B59;
+  padding: 20px 0;
+  margin-bottom: 5px; }
+
+.galeria {
   display: flex;
-  justify-content: center;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
   align-items: center;
-  background-color: white;
-  font-size: 40px;
-  color: black;
+  align-content: center; }
+
+.img-pag {
+  max-width: 200px;
+  max-height: 200px;
+  min-width: 200px;
+  min-height: 200px;
+  object-fit: cover;
+  padding: 15px 10px;
+  filter: brightness(70%);
   transition: all 1s; }
-  .btn-mas:hover {
-    color: white;
-    background-color: black; }
+  .img-pag:hover {
+    filter: brightness(100%);
+    transform: scale(130%); }
+
+.img-pag2 {
+  max-width: 200px;
+  max-height: 200px;
+  min-width: 200px;
+  min-height: 200px;
+  object-fit: none;
+  padding: 15px 10px;
+  filter: brightness(70%);
+  transition: all 1s; }
+  .img-pag2:hover {
+    filter: brightness(100%);
+    transform: scale(130%); }
 
 #quien-soy {
   text-align: center;
@@ -165,7 +189,8 @@ h2 {
   color: white;
   font-size: 25px;
   padding: 30px 20px;
-  line-height: 50px; }
+  line-height: 50px;
+  font-style: italic; }
   #quien-soy .encQs {
     text-align: center;
     font-size: 50px;
@@ -213,34 +238,6 @@ h2 {
   .autor:hover {
     color: white;
     background-color: black; }
-
-.titulo-prod {
-  font-size: 50px;
-  text-align: center;
-  color: white;
-  background-color: #635B59;
-  padding: 20px 0;
-  margin-bottom: 5px; }
-
-.galeria {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  align-items: center;
-  align-content: center; }
-
-.img-pag {
-  max-width: 200px;
-  max-height: 200px;
-  min-width: 200px;
-  min-height: 200px;
-  object-fit: cover;
-  padding: 15px 10px;
-  filter: brightness(70%);
-  transition: all 1s; }
-  .img-pag:hover {
-    filter: brightness(100%);
-    transform: scale(130%); }
 
 .error {
   background-image: url(../img/404.jpg);
@@ -338,7 +335,7 @@ h2 {
   .sellos {
     width: 30%;
     height: 30%;
-    left: 10%; }
+    left: 15%; }
     .sellos:hover {
       transform: scale(1.8); }
   h2 {
