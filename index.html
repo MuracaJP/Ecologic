@@ -10,11 +10,12 @@
     <meta name="description" content="Venta de productos de cosmética natural, veganos y ecofriendly, libre 
     de sustancias químicas, no testeado en animales">
     <meta name="keywords" content="cosmética, 100% natural, ecológico, vegano, ecofriendly, no testeado en animales, 
-    naturaleza, plantas, botánica, libre de químicos, accesorios, aromaterapia, bálsamos y cremas">
+    naturaleza, plantas, botánica, libre de químicos, accesorios, aromaterapia, cuidado capilar, cuidado de la piel, hogar 
+    sustentable, jabones, peines y cepillos, perfumes, salud bucal">
 
     <!--Protocolo open graph-->
     <meta property="og:title" content="Cosmética natural">
-    <meta property="og:image" content="img/collage.jpg">
+    <meta property="og:image" content="img/logo.png">
     <meta property="og:author" content="Juan Pablo Muraca">
     <meta property="og:description" content="Venta de productos de cosmética natural, veganos y ecofriendly, libre 
     de sustancias químicas, no testeado en animales">
@@ -25,6 +26,9 @@
 
     <!--link CSS-->
     <link rel="stylesheet" href="css/style.css">
+
+    <!--AOS-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     <!--Fuente-->
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -60,18 +64,20 @@
 
             <!-- Logo y botones con links-->
 
-            <img src="img/logo.png" alt="logo" class="logo">
+            <img src="img/logo.png" alt="logo" class="logo" data-aos="fade" data-aos-duration="1000"
+                data-aos-offset="300" data-aos-easing="ease-in-sine">
 
             <section class="botones">
                 <a href="index.html" class="btn-inicio">Inicio</a>
                 <a href="index.html#productos" class="btn-productos">Productos</a>
-                <a href="https://www.instagram.com/stories/highlights/17873571127549319/" class="btn-eco">Vida Eco</a>
-                <a href="https://www.instagram.com/stories/highlights/17879341333668935/" class="btn-tips">Tips</a>
+                <a href="https://www.instagram.com/stories/highlights/17873571127549319/" class="btn-eco"
+                    target="_blank">Vida Eco</a>
+                <a href="https://www.instagram.com/stories/highlights/17879341333668935/" class="btn-tips"
+                    target="_blank">Tips</a>
             </section>
             <section class="botones2">
                 <a href="https://www.instagram.com/ecocina.a" class="btn-recetas" target="_blank">Recetas</a>
                 <a href="index.html#quien-soy" class="btn-nos">Sobre Mí</a>
-                
                 <a href="index.html#contacto" class="btn-contacto">Contacto</a>
             </section>
         </nav>
@@ -87,8 +93,10 @@
         <nav>
 
             <div class="tit-subg">
+                <img src="img/e.png" alt="mini logo" class="mini-logo">
                 <a href="https://ecologicsadg.kyte.site/salud-bucal" class="tit-subg">Accesorios</a>
             </div>
+
 
             <section class="acces-ini">
 
@@ -110,6 +118,7 @@
             <!--Aromaterapia-->
 
             <div class="tit-subg">
+                <img src="img/e.png" alt="mini logo" class="mini-logo">
                 <a href="https://ecologicsadg.kyte.site/salud-bucal" class="tit-subg">Aromaterapia</a>
             </div>
 
@@ -135,6 +144,7 @@
             <!--Cuidado Capilar-->
 
             <div class="tit-subg">
+                <img src="img/e.png" alt="mini logo" class="mini-logo">
                 <a href="https://ecologicsadg.kyte.site/salud-bucal" class="tit-subg">Cuidado capilar</a>
             </div>
 
@@ -159,6 +169,7 @@
             <!--Cuidado de la piel-->
 
             <div class="tit-subg">
+                <img src="img/e.png" alt="mini logo" class="mini-logo">
                 <a href="https://ecologicsadg.kyte.site/salud-bucal" class="tit-subg">Cuidado de la piel</a>
             </div>
 
@@ -182,6 +193,7 @@
             <!--Jabones-->
 
             <div class="tit-subg">
+                <img src="img/e.png" alt="mini logo" class="mini-logo">
                 <a href="https://ecologicsadg.kyte.site/salud-bucal" class="tit-subg">Jabones</a>
             </div>
 
@@ -205,6 +217,7 @@
             <!--Hogar sustentable-->
 
             <div class="tit-subg">
+                <img src="img/e.png" alt="mini logo" class="mini-logo">
                 <a href="https://ecologicsadg.kyte.site/salud-bucal" class="tit-subg">Hogar sustentable</a>
             </div>
 
@@ -231,6 +244,7 @@
             <!--Peines y cepillos-->
 
             <div class="tit-subg">
+                <img src="img/e.png" alt="mini logo" class="mini-logo">
                 <a href="productos.html#peines" class="tit-subg">Peines y cepillos</a>
             </div>
 
@@ -254,6 +268,7 @@
             <!--Perfumes-->
 
             <div class="tit-subg">
+                <img src="img/e.png" alt="mini logo" class="mini-logo">
                 <a href="https://ecologicsadg.kyte.site/salud-bucal" class="tit-subg">Perfumes</a>
             </div>
 
@@ -272,17 +287,18 @@
                             src="productos/perfumes/neroli.jpg" alt="Perfume intenso neroli"></a>
                 </div>
 
-           
+
             </section>
 
             <!--Salud bucal-->
 
             <div class="tit-subg">
+                <img src="img/e.png" alt="mini logo" class="mini-logo">
                 <a href="productos.html#bucal" class="tit-subg">Salud bucal</a>
             </div>
 
             <section class="bucal-ini">
- 
+
                 <div>
                     <a href="productos.html#bucal"><img class="img-prod" loading="lazy"
                             src="productos/salud bucal/ninos.jpg" alt="Cepillo de diente para niños de bambú"> </a>
@@ -362,12 +378,17 @@
         <a class="autor" href="https://github.com/MuracaJP?tab=repositories">Desarrollado por Juan Pablo Muraca </a>
     </div>
 
-    <!--Javascript-->
+    <!--Javascript bootstrap-->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
         integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous">
     </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"
         integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous">
+    </script>
+    <!--JS AOS-->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
     </script>
 
 </body>

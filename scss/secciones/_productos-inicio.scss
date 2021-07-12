@@ -87,14 +87,22 @@
  //títulos sub-grupos//
  .tit-subg {
      display: flex;
-     justify-content: space-evenly;
-     background-color: black;
+     justify-content: start;
+     background-color: #788B84;
+     padding: 5px 0px 5px 22px;
      color: white;
      text-decoration: none;
      font-size: 30px;
      transition: all 1s;
      &:hover {
-        color: #b4b4b4;
+        color: rgb(255, 255, 188);
      }
  }
+
+ .mini-logo {
+    max-height: 50px ;    
+    min-height: 50px;
+    max-width: 50px;
+    min-width: 50px;
+}
  
