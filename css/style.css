@@ -144,18 +144,29 @@ h2 {
     color: #ffffbc; }
 
 .mini-logo {
-  max-height: 50px;
-  min-height: 50px;
-  max-width: 50px;
-  min-width: 50px; }
+  width: 50px;
+  height: 50px; }
+
+.box-tit {
+  display: flex;
+  background-color: #635B59; }
 
 .titulo-prod {
   font-size: 50px;
-  text-align: center;
+  text-align: left;
   color: white;
-  background-color: #635B59;
   padding: 20px 0;
-  margin-bottom: 5px; }
+  padding-left: 30px; }
+
+.logo-pag {
+  width: 300px;
+  height: 100px;
+  transition: all 1s; }
+  .logo-pag:hover {
+    transform: scale(110%); }
+
+.link-logo {
+  text-decoration: none; }
 
 .galeria {
   display: flex;
@@ -165,10 +176,8 @@ h2 {
   align-content: center; }
 
 .img-pag {
-  max-width: 200px;
-  max-height: 200px;
-  min-width: 200px;
-  min-height: 200px;
+  width: 200px;
+  height: 200px;
   object-fit: cover;
   padding: 15px 10px;
   filter: brightness(70%);
@@ -178,10 +187,8 @@ h2 {
     transform: scale(130%); }
 
 .img-pag2 {
-  max-width: 200px;
-  max-height: 200px;
-  min-width: 200px;
-  min-height: 200px;
+  width: 200px;
+  height: 200px;
   padding: 15px 10px;
   filter: brightness(70%);
   transition: all 1s; }
@@ -272,10 +279,10 @@ h2 {
   h2 {
     font-size: 30px; }
   .img-prod {
-    max-height: 180px;
     max-width: 180px;
-    min-height: 180px;
-    min-width: 180px; }
+    max-height: 180px;
+    min-width: 180px;
+    min-height: 180px; }
   .encQs {
     font-size: 25px; }
   #contacto {
@@ -283,14 +290,19 @@ h2 {
     flex-direction: column;
     line-height: 60px; }
   .img-pag {
-    max-width: 150px;
-    max-height: 150px;
-    min-width: 150px;
-    min-height: 150px;
+    width: 150px;
+    height: 150px;
+    padding: 10px 8px; }
+  .img-pag2 {
+    width: 150px;
+    height: 150px;
     padding: 10px 8px; }
   .titulo-prod {
     font-size: 35px;
-    padding: 10px 0; } }
+    padding: 10px 10px; }
+  .logo-pag {
+    width: 180px;
+    height: 60px; } }
 
 @media only screen and (min-width: 401px) and (max-width: 600px) {
   .sellos {
@@ -321,13 +333,16 @@ h2 {
     height: 80px;
     font-size: 15px; }
   .img-prod {
-    max-height: 120px;
-    max-width: 120px;
-    min-height: 120px;
-    min-width: 120px; }
+    max-width: 130px;
+    max-height: 130px;
+    min-width: 130px;
+    min-height: 130px; }
   .tit-subg {
     font-size: 20px;
     padding: 0; }
+  .mini-logo {
+    width: 30px;
+    height: 30px; }
   #quien-soy {
     font-size: 15px;
     line-height: 15px; }
@@ -339,8 +354,15 @@ h2 {
   .contacto {
     padding: 0;
     font-size: 20px; }
+  .ig {
+    width: 4%;
+    height: 4%;
+    padding: 10px 0; }
   .links-contacto {
-    font-size: 15px; } }
+    font-size: 15px; }
+  .titulo-prod {
+    font-size: 30px;
+    padding: 8px 5px; } }
 
 @media only screen and (max-width: 400px) {
   .sellos {
@@ -361,17 +383,20 @@ h2 {
   .btn-recetas,
   .btn-productos,
   .btn-contacto {
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
     font-size: 10px; }
   .img-prod {
-    max-height: 70px;
-    max-width: 70px;
-    min-height: 70px;
-    min-width: 70px; }
+    max-width: 85px;
+    max-height: 85px;
+    min-width: 85px;
+    min-height: 85px; }
   .tit-subg {
     font-size: 12px;
     padding: 0; }
+  .mini-logo {
+    width: 18px;
+    height: 18px; }
   #quien-soy {
     font-size: 12px;
     line-height: 15px; }
@@ -385,15 +410,26 @@ h2 {
     font-size: 15px;
     text-align: left; }
   .links-contacto {
-    font-size: 10px; }
+    font-size: 12px; }
+  .ig {
+    width: 4%;
+    height: 4%;
+    padding: 0; }
   .autor {
     font-size: 8px; }
   .img-pag {
+    width: 80px;
+    height: 80px;
+    padding: 8px 5px; }
+  .img-pag2 {
     max-width: 80px;
     max-height: 80px;
     min-width: 80px;
     min-height: 80px;
     padding: 8px 5px; }
   .titulo-prod {
-    font-size: 25px;
-    padding: 8px 0; } }
+    font-size: 20px;
+    padding: 8px 5px; }
+  .logo-pag {
+    width: 120px;
+    height: 40px; } }

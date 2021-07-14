@@ -1,13 +1,30 @@
 //Títulos grupos de productos//
 
+.box-tit {
+    display: flex;
+    background-color: #635B59;
+}
 .titulo-prod {
     font-size: 50px;
-    text-align: center;
+    text-align: left;
     color: white;
-    background-color: #635B59;
     padding: 20px 0;
-    margin-bottom: 5px;
+    
+    padding-left: 30px;
 }
+
+.logo-pag {
+    width: 300px;
+    height: 100px;
+    transition: all 1s;
+    &:hover {
+        transform: scale(110%);
+    }
+}
+
+.link-logo {
+    text-decoration: none;
+    }
 
 //Galería de imágenes//
 
@@ -22,10 +39,8 @@
 //Formato imágenes en galería//
 
 .img-pag {
-    max-width: 200px;
-    max-height: 200px;
-    min-width: 200px;
-    min-height: 200px;
+    width: 200px;
+    height: 200px;
     object-fit: cover;
     padding: 15px 10px;
     filter: brightness(70%);
@@ -37,10 +52,8 @@
 }
 
 .img-pag2 {
-    max-width: 200px;
-    max-height: 200px;
-    min-width: 200px;
-    min-height: 200px;
+    width: 200px;
+    height: 200px;
     padding: 15px 10px;
     filter: brightness(70%);
     transition: all 1s;
