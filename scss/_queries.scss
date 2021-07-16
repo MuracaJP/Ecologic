@@ -22,7 +22,7 @@
     }
 
     .encQs {
-        font-size: 25px;
+        font-size: 35px;
     }
 
     #contacto {
@@ -123,12 +123,14 @@
     #quien-soy {
         font-size: 15px;
         line-height: 15px;
+        .encQs {
+            font-size: 40px;
+            padding: 15px 0;
+        }
+    
     }
 
-    .encQs {
-        font-size: 20px;
-    }
-
+   
     //Contacto//
     #contacto {
         display: flex;
@@ -213,11 +215,14 @@
     #quien-soy {
         font-size: 12px;
         line-height: 15px;
+        padding: 10px;
+        .encQs {
+            font-size: 20px;
+            padding: 10px;
+        }
     }
 
-    .encQs {
-        font-size: 25px;
-    }
+    
 
     //Contacto//
     #contacto {

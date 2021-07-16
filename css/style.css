@@ -8,15 +8,8 @@ body {
 
 #inicio {
   text-align: center;
-  background-color: #ffffbc;
+  background-color: whitesmoke;
   margin-bottom: 5px; }
-
-.search-box {
-  display: flex;
-  justify-content: flex-end;
-  padding-top: 10px;
-  max-width: 300px;
-  margin: auto; }
 
 .logo {
   width: 50%;
@@ -207,7 +200,8 @@ h2 {
   #quien-soy .encQs {
     text-align: center;
     font-size: 50px;
-    padding: 40px 0; }
+    padding: 40px 0;
+    font-style: normal; }
 
 #contacto {
   background-color: #788B84;
@@ -284,7 +278,7 @@ h2 {
     min-width: 180px;
     min-height: 180px; }
   .encQs {
-    font-size: 25px; }
+    font-size: 35px; }
   #contacto {
     display: flex;
     flex-direction: column;
@@ -346,8 +340,9 @@ h2 {
   #quien-soy {
     font-size: 15px;
     line-height: 15px; }
-  .encQs {
-    font-size: 20px; }
+    #quien-soy .encQs {
+      font-size: 40px;
+      padding: 15px 0; }
   #contacto {
     display: flex;
     flex-direction: column; }
@@ -399,9 +394,11 @@ h2 {
     height: 18px; }
   #quien-soy {
     font-size: 12px;
-    line-height: 15px; }
-  .encQs {
-    font-size: 25px; }
+    line-height: 15px;
+    padding: 10px; }
+    #quien-soy .encQs {
+      font-size: 20px;
+      padding: 10px; }
   #contacto {
     display: flex;
     flex-direction: column; }
