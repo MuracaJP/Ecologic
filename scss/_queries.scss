@@ -2,16 +2,28 @@
 @media only screen and (min-width: 401px) and (max-width: 900px) {
 
     .sellos {
-        width: 25%;
-        height: 25%;
+        width: 40%;
+        height: 40%;
+        left: 25%;
+    }
+    
 
-        &:hover {
-            transform: scale(1.5);
-        }
+    .productos {
+        font-size: 30px;
     }
 
-    h2 {
-        font-size: 30px;
+    //Botones con links//
+
+    .btn-inicio,
+    .btn-nos,
+    .btn-eco,
+    .btn-tips,
+    .btn-recetas,
+    .btn-productos,
+    .btn-contacto {
+        width: 90px;
+        height: 90px;
+        font-size: 18px;
     }
 
     .img-prod {
@@ -46,7 +58,7 @@
 
     .titulo-prod {
         font-size: 35px;
-        padding: 10px 10px;
+        padding: 10px 15px;
     }
 
     .logo-pag {
@@ -57,22 +69,8 @@
 
 @media only screen and (min-width: 401px) and (max-width: 600px) {
 
-    .sellos {
-        width: 35%;
-        height: 35%;
-        left: 20%;
-
-        &:hover {
-            transform: scale(1.5);
-        }
-    }
-
-    h2 {
+    .productos {
         font-size: 25px;
-    }
-
-    .search-box {
-        max-width: 250px;
     }
 
     //Disposición botones//
@@ -156,29 +154,22 @@
     //Galería//
     .titulo-prod {
         font-size: 30px;
-        padding: 8px 5px;
+        padding: 8px 10px;
     }
 }
 
 //responsive mobile //
 @media only screen and (max-width: 400px) {
+
     .sellos {
-        width: 30%;
-        height: 30%;
+        width: 40%;
+        height: 40%;
         left: 15%;
-
-        &:hover {
-            transform: scale(1.8);
-        }
     }
-
-    h2 {
+    
+    .productos {
         font-size: 20px;
         padding: 20px 10px;
-    }
-
-    .search-box {
-        max-width: 150px;
     }
 
     .btn-inicio,
@@ -222,8 +213,6 @@
         }
     }
 
-    
-
     //Contacto//
     #contacto {
         display: flex;
@@ -251,6 +240,11 @@
     }
 
     //Galería//
+
+    .box-tit {
+        align-items: center;
+    }
+
     .img-pag {
         width: 80px;
         height: 80px;
@@ -258,20 +252,19 @@
     }
 
     .img-pag2 {
-        max-width: 80px;
-        max-height: 80px;
-        min-width: 80px;
-        min-height: 80px;
+        width: 80px;
+        height: 80px;
         padding: 8px 5px;
     }
 
     .titulo-prod {
         font-size: 20px;
-        padding: 8px 5px;
+        padding: 8px 8px;
     }
 
     .logo-pag {
         width: 120px;
         height: 40px;
+        display: block;
     }
 }

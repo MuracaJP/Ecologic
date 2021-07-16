@@ -3,13 +3,13 @@
 .box-tit {
     display: flex;
     background-color: #635B59;
+    justify-content: start;
 }
 .titulo-prod {
     font-size: 50px;
     text-align: left;
     color: white;
     padding: 20px 0;
-    
     padding-left: 30px;
 }
 
@@ -17,8 +17,10 @@
     width: 300px;
     height: 100px;
     transition: all 1s;
+    justify-items: end;
     &:hover {
         transform: scale(110%);
+        filter: brightness(120%);
     }
 }
 
@@ -31,9 +33,8 @@
 .galeria{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: center;
-    align-content: center;
+    justify-content: flex-start;
+    
 }
 
 //Formato imágenes en galería//
@@ -42,7 +43,8 @@
     width: 200px;
     height: 200px;
     object-fit: cover;
-    padding: 15px 10px;
+    padding: 10px;
+    
     filter: brightness(70%);
     transition: all 1s;
     &:hover {
@@ -54,7 +56,7 @@
 .img-pag2 {
     width: 200px;
     height: 200px;
-    padding: 15px 10px;
+    padding: 10px;
     filter: brightness(70%);
     transition: all 1s;
     &:hover {
